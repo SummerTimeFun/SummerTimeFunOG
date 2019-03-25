@@ -152,7 +152,7 @@ header {
   background: rgba(255, 246, 239, 0.5);
   top: 0;
   right: 0;
-  z-index: 1000000;
+  z-index: 1000;
 }
 
 .container {
