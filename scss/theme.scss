@@ -407,7 +407,7 @@ body {
   border: none;
   background: none;
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 5px;
   min-width: 170px;
   text-align: center;
   display: inline-block;
@@ -424,7 +424,7 @@ body {
 }
 
 .btn-theme-white-tr {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   padding: 12px 15px;
 
   &:hover {

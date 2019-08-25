@@ -530,7 +530,7 @@ footer {
   box-shadow: 0 10px 20px 0 rgba(37, 37, 37, 0.2); }
 
 .btn-theme-white-tr {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   padding: 12px 15px; }
 
 .btn-theme-white-tr:hover {
