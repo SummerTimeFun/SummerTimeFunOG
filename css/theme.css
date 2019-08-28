@@ -133,7 +133,7 @@ body {
 
 body {
   overflow-x: hidden;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -232,7 +232,7 @@ nav a:last-child {
 .project {
   border: 1px solid #F8D7BD;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #3F333A;
   margin-bottom: 70px;
 }
