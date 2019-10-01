@@ -15,7 +15,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>GroJo</title>
     <link rel="stylesheet" type="text/css" href="css/master.css">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
 <body>
 
@@ -113,8 +130,18 @@
                     </div>
                     <div class="margin-box">
                         <div class="img-box">
-                            <a href="https://invis.io/8WS0YPECXKT" target="_blank"><img src="media/food-queue/Re-FeedPrototype.jpg" alt="UI Prototype"></a>
-                            <div class="legend">Figure 1. check out the prototype</div>
+<div class="row">
+  <div class="column">
+    <a href="https://invis.io/3XS0Y95DGUF" target="_blank"><img src="media/food-queue/FQ1.jpg" alt="Snow" style="width:100%"></a>
+  </div>
+  <div class="column">
+      <a href="https://invis.io/8WS0YPECXKT" target="_blank"><img src="media/food-queue/FQ2.jpg" alt="Snow" style="width:100%"></a>
+  </div>
+  <div class="column">
+    <a href="https://invis.io/2WS0YY8QGUR" target="_blank"><img src="media/food-queue/FQ3.jpg" alt="Snow" style="width:100%"></a>
+  </div>
+</div>
+                            <div class="legend">Figure 1. check out the prototypes</div>
                         </div>
                     </div>
                     <div class="margin-box">
