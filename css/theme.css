@@ -147,7 +147,7 @@ header {
 }
 
 #navBar {
-  position: fixed;
+  position: sticky;
   width: 100%;
   background: rgba(255, 246, 239, 0.5);
   top: 0;
