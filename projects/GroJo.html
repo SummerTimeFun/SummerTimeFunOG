@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Summer</title>
+  <!-- link google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans|Righteous&display=swap"
+    rel="stylesheet">
+  <!-- link setup styles -->
+  <link rel="stylesheet" href="../styles/setup.css">
+  <!-- link stylesheet -->
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+  <header class="project-header">
+    <div class="top-nav">
+      <!-- wrapper -->
+      <div class="wrapper">
+        <div class="logo">
+          <h1 class="sr-only">Summer</h1>
+          <img src="../assets/logo.png" alt="">
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="#projects" id="page">projects</a></li>
+            <li><a href="../about.html">about</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <!--end of wrapper-->
+    </div>
+
+    <div class="wrapper">
+      <div class="flex-container">
+        <div class="header-content">
+          <h2>GroJo</h2>
+          <p>GroJo is an app to help urban dwellers take care of their houseplants. The intention is to assist plant owners with watering and feeding schedules to alleviate the stress of simply winging it.</p>
+        </div>
+        <div class="header-img">
+          <img src="../assets/GroJo/GroJoHeaderPixel3.png" alt="picture of app description">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="small-wrapper">
+      <h3 class="main-title" >Problem</h3>
+      <p>I started to notice a lot of people in my community have a decent collection of houseplants but don't have the confidence and know-how to take care of them. They struggle with underwatering, overwatering and knowing when and how much to fertilize different plants. They talked about the shame of killing their plants and the stress that brings.</p>
+    </section>
+      
+    <section class="small-wrapper">
+      <h3 class="main-title">GOAL</h3>
+      <p>My goal for this project was to create a platform to help alleviate the stress of not knowing when and how much to water houseplants. Studies have shown that houseplants improve concentration and productivity, reduce stress levels, and boost your mood. I wanted to address the shame and guilt I was hearing when talking to people about their plants, to clear the way for all the benefits of plants. </p>
+    </section>
+    
+      <section class="small-wrapper">
+      <h3 class="main-title">process</h3>
+      <p>For this project, I followed the 5 Planes of UX methodology: strategy, scope, structure, skeleton, and surface. I determined this was the best course of action to help me focus on my goal as well as align my activities to address the user experience consistently.</p>
+    </section>
+      
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">01 strategy</h4><h6>Defining user needs and business objectives</h6>
+      <p>As an avid houseplant owner, something I hear often is people worry about keeping their houseplants healthy and alive. I was hearing a lot of people talk about the shame that they have around how many plants they've killed, so they don’t keep them anymore. There appeared to be a trend towards not understanding watering cycles. </p>
+     <p>The first step was to determine if there was an actual issue with watering. 
+      Being on a tight timeline, I opted to do some guerilla user research. I had casual conversations with people about their plant ownership and how confident they were that they were taking proper care of their plants. These conversations happened in the workplace, at parties and cafes. Once I ascertained that there was a significant enough issue,  I conducted more formal user research, by way of survey, User Interview, and research in plant forums. While I was going through the research I discovered that a lot of people have a lot of plants and they want to be able to take care of them, but they're not sure where to find the information on how to take care of them. They couldn’t recall the last time they watered their plants, or how to know when the plants needed water. A lot of them were killing their plants and they thought that they were, because they were overwatering because that was a better alternative than under-watering. 
+     </p>
+        
+        <div class="example-img">
+        <img src="../assets/GroJo/GroJoPersona.png" alt="Persona Card">
+      </div>
+      <p class="example-caption">1 Persona was created to keep the project on track</p>
+    </section>
+      
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">02 scope</h4><h6>Defining functional and content requirements</h6>
+      <p>Comparative/Field analysis. While all of the apps I looked at had the scheduling function, it did not offer a schedule suggestion. This will still leave the user confused and second-guessing if they have the correct watering schedule. For this app to serve its purpose of reducing cognitive load and alleviate stress, there would need to be more intuitive features built-in</p>
+      <p>I tested two apps with the functional requirements I was looking for, Plant Identification and Watering Schedules. </p>
+        <ul>
+        <li>1) Waterbot:</li>
+        <li>- scheduling feature was seamless</li>
+        <li>- simplicity made it easy to use</li>
+        <li>- usability was compromised due to this simplicity</li>
+        </ul>
+        <ul>
+        <li>2) Picture This:</li>
+        <li>- utilizes camera phone to identify plants</li>
+        <li>- plant identification feature very accurate</li>
+        <li>- did not have any other features</li>
+        </ul>
+    </section>
+      
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">03 structure</h4><h6>Interaction Design and Information Architecture</h6>
+        
+     <p>I wanted to know what steps the user must take before I started diving into the structure of the app. I created User Flows for a few key tasks the user would be performing.</p>
+     <div class="example-img">
+        <img src="../assets/GroJo/AddPlantFlow.png" alt="User Flow of Adding Plant to the shelf">
+      </div>
+      <p class="example-caption">2 User Flow for task Add Plant to Shelf</p>
+      <p>Creating a sitemap helped me organize information and discover which features would be an asset to create the journey intended for the user. </p>
+      <p>Aligning with my persona and goals, I determined the features to be included needed to be:</p>
+      <ol>
+      <li>1) plant Identification either by photo upload or searching easy to search list</li>
+      <li>2) watering and fertilizing suggestions based on species</li>
+      <li>3) scheduling capabilities based off app suggestions with the capacity to override and enter dates manually</li>
+      <li>4) connection to main calendars available</li>
+      </ol>
+        
+        <div class="example-img">
+        <img src="../assets/GroJo/GroJoSiteMap.png" alt="Site map">
+      </div>
+      <p class="example-caption">3 Site Map to stay organized</p>
+    </section>
+      
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">04 skeleton</h4><h6>Defining the visual form</h6>
+      <p>Given the task-centric nature of the app, I deduced that many would be holding their phone while watering their plants. With this in mind, I really focused on the Thumb Zone for call-to-action buttons, task checkboxes, and the more frequent menu items.</p>
+        
+      <p>I created wireframes to organize and simplify my content and determine if there were any redundancies.</p> 
+        
+    <div class="image-gallery">
+        <div class="example-img">
+          <img src="../assets/GroJo/WireFrameHome.png" alt="">
+        </div>
+        <div class="example-img">
+          <img src="../assets/GroJo/WireFrameLeaf.png" alt="">
+        </div>
+        <div class="example-img">
+          <img src="../assets/GroJo/WireFramePlant.png" alt="">
+        </div>
+      </div>
+      <p class="example-caption">1.1 Caption this yo</p>
+    </section>
+      
+    
+      <section class="small-wrapper">
+      <h4 class="sub-title orange">05 surface</h4><h6>Defining the visual style</h6>
+      <p>Watering houseplants is meant to be a meditative and enlightening feeling. I wanted the visual style of GroJo to reflect that, and still be fun and light. To accomplish this, I kept the colour scheme light and airy, and gave the UI elements plenty of space to breathe. The look is minimal so the plants can take center stage visually. To create some fun in the design, I used vectors from icons8 Ouch collection.</p>
+    </section>  
+    
+      
+      
+      <section class="small-wrapper">
+      <h4 class="sub-title orange">solution</h4>
+      <p>The best take-away I got from this project is to simplify, then go back and simplify again. At the start of the project, I wanted to add a lot of features and functions. As the project went on, I realized it was just bogging down the experience. I stepped back and stripped out many of the extras.</p>
+      <p>GroJo is also the first project that I designed all the screens for. This process was highly valuable. I assumed I could soar through making all the screens given that I have such a strong design background. It took me many interactions to get the screens to get a sense of cohesion and the minimal UI I was aiming for. Another valuable lesson was understanding just how many different states the app could be in at any time, and all those states needed to be designed for. All in all, I learned a lot about the full process of designing a full app and all of its features.
+      </p>
+    </section>  
+    <section class="small-wrapper">
+      <h4 class="sub-title orange">future considerations</h4>
+      <p>* More robust scheduling system: connect the Floral Feed and the Image Upload features into the scheduling flow. This will allow the User to move w/more ease as well as lessen the number of steps needed to set up a schedule.</p>
+        <p>* Integrate a Helpful Hints resource: GroJoe’rs can search for tips and tricks for their specific plants, ideally, there will be community moderators to communicate directly with. This will ensure the User can get access to as much information as possible w/out leaving the app.</p>
+        <p>* Extensive testing of scheduling feature: this project had a short timeline, which left little time for a deeper dive into the scheduling system. User testing to determine how much more extensive the Scheduling is useful, ie having a Text to Phone feature if photo integration would be useful.</p>
+    </section>  
+  </main> 
+  <footer>
+    <div class="wrapper">
+      <p>Illustration by Aum</p>
+
+      <p>copyright 2019 Summer.</p>
+    </div>
+  </footer>
+
+  <script src='https://code.jquery.com/jquery-3.4.0.min.js'
+    integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+  <script src="../script.js"></script>
+</body>
+
+</html>

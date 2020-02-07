@@ -1,461 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131804257-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-131804257-1');
-        </script>
-<!-- END Global site tag (gtag.js) - Google Analytics -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>summer.</title>
-    <link rel="stylesheet" type="text/css" href="css/master.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Summer's Portfolio</title>
+  <!-- link google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans|Righteous&display=swap"
+    rel="stylesheet">
+  <!-- link setup styles -->
+  <link rel="stylesheet" href="./styles/setup.css">
+  <!-- link stylesheet -->
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
 
-<!-- Loader -->
-<div id="page-preloader"><span class="spinner"></span></div>
-<!-- Loader end -->
-
-<!-- Mobile menu -->
-<div class="hidden-md hidden-lg">
-    <div class="close-mob-menu">
-        <span class="mdi mdi-window-close"></span>
-    </div>
-    <div class="mobile-box-wrap">
-        <div class="mobile-box-flex">
-            <div class="mobile-menu header-links">
-                <ul>
-                    <li><a href="#projects">Projects</a></li>
-             <!--       <li><a href="#" data-toggle="modal" data-target="#about-me-modal">About</a></li> -->
-                    <li><a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact</a></li>
-                </ul>
-            </div>
+  <header>
+    <div class="top-nav">
+      <!-- wrapper -->
+      <div class="wrapper">
+        <div class="logo">
+          <h1 class="sr-only">Summer</h1>
+          <img src="./assets/logo.png" alt="Summer logo">
         </div>
 
-    </div>
-</div>
-
-<header>
-    <div id="navBar">
-      <div  class="container navContainer">
-        <div class="summer">
-                        <a href="index.html">Summer</a>
-
-        </div>
         <nav>
-          <a href="#projects">Projects</a>
-        <!--   <a href="#" data-toggle="modal" data-target="#about-me-modal">About</a> -->
-          <!-- <a href="#">About</a> 
-           <a href="#" data-toggle="modal" data-target="#contact-me-modal">Contact</a> -->
-            <br>
+          <ul>
+            <li><a href="#home" id="page">home</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
         </nav>
+
       </div>
+      <!--end of wrapper-->
     </div>
 
-    <div id="introText">
-      <h1>Hi there!</h1>
-      <p>
-        I’m Summer.
-        I am  a dynamic UX Designer
-        with a focus on Research.
-      </p>
+    <div class="flex-container">
+
+      <div class="wrapper">
+        <h2>Hi there!</h2>
+        <h3>I'm Summer.</h3>
+        <h3>I am a dynamic UX Designer with a focus on Research.</h3>
+      </div>
     </div>
   </header>
- <section id="projects">
 
-   <br> <h2>Projects</h2> <br>
-     <div class="project">
-      <div class="container">
-        <div class="projectImage">
-          <img src="media/projects/grojo_wireframes.jpg" alt="Project Image" />
-        </div>
-        <div class="projectDescription">
-          <h3><b>GroJo</b></h3>
-          <p>
-              GroJo is an app that helps take the second guessing out of house plant care so you can enjoy your greener home w ease. 
-              <br/>
-              <a class="btn" href="grojo.html">See More</a>
-          </p>
-        </div>
-      </div>
-    </div>
-<div class="project">
-      <div class="container">
-        <div class="projectImage">
-          <img src="media/project-page/here_to_slay.jpg" alt="Project Image" />
-        </div>
-        <div class="projectDescription">
-          <h3><b>Here To Slay</b></h3>
-          <p>Applying design thinking to the wicked problem of a lack of women and non-binanry folks in STEM leadership roles.<br/>
-              <a class="btn" href="here_to_slay.pdf">See More</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    
+  <main class="wrapper" id="projects">
+    <h4>Projects</h4>
 
-     <div class="project">
-      <div class="container">
-        <div class="projectImage">
-          <img src="media/projects/foodqueue_mockup.jpg" alt="Project Image" />
+    <ul class="projects">
+        
+      <li class="project">
+        <div class="img-container">
+          <img src="./assets/GroJo/GroJoHomePixel3BG.png" alt="" class="project-img">
         </div>
-        <div class="projectDescription">
-          <h3><b>Re-Feed</b></h3>
-          <p>An app to help urban dwellers combat their personal food waste while building community.
-              <br/>
-              <a class="btn" href="re_feed.html">See More</a>
+        <div class="project-text">
+          <h5>GroJo</h5>
+          <p>Houseplants are increasing in popularity everyday. Often, people aren't sure how much and when to water their little green fam. GroJo helps take the second guessing out of house plant care so you can enjoy your greener home with ease. </p>
+          <a href="projects/GroJo.html" target="_blank">See More</a>
+        </div>
+      </li>
+        
+      <li class="project">
+        <div class="img-container">
+          <img src="assets/HereToSlayHome.png" alt="" class="project-img">
+        </div>
+        <div class="project-text">
+          <h5>Here To Slay</h5>
+          <p>SThe STEAM/STEM industry is one of the fastest-growing, and yet there is still a lack of women and non-binary people in leadership roles. This project applies design thinking through divergence and convergence to explore this wicked problem.</p>
+          <a href="projects/Here_to_Slay.pdf" target="_blank">See More</a>
+        </div>
+      </li>
+        
+      <li class="project">
+        <div class="img-container">
+          <img src="./assets/ReFeed/ReFeedHome.png" alt="" class="project-img">
+        </div>
+        <div class="project-text">
+          <h5>Re-Feed</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique debitis officiis, vitae exercitationem et autem error molestias quia. Sit distinctio quam sed omnis. Facere, suscipit! Nostrum numquam nemo laboriosam ducimus!</p>
+          <a href="projects/Re-Feed.html" target="_blank">See More</a>
+        </div>
+      </li>
+        <!--
+      <li class="project">
+        <div class="img-container">
+          <img src="./assets/GroJo/GroJoHomePixel3BG.png" alt="" class="project-img">        </div>
+        <div class="project-text">
+          <h5>DDP aka Doughy Delights Pizzeria</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatum maxime numquam, quos officiis quis hic at, blanditiis minus soluta sit? Consectetur molestiae quidem quod nulla debitis odio voluptates repellat?</p>
+          <a href="projects/DoughyDelights.html">See More</a>
+        </div>
+      </li>-->
+    </ul>
+  </main>
 
-          </p>
-        </div>
-      </div>
-    </div>
+  <footer>
+    <div class="wrapper">
+      <p>Illustration by Aum</p>
 
-     <div class="project">
-      <div class="container">
-        <div class="projectImage">
-          <img src="media/project-page/ddp/opener.jpg" alt="Project Image" />
-        </div>
-        <div class="projectDescription">
-          <h3><b>DDP aka Doughy Delights Pizzeria</b></h3>
-          <p>
-              A delivery-only pizza restaurant concept intended for busy office workers in the downtown core.
-              <br/>
-              <a class="btn" href="ddp.html">See More</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<footer>
-    <div class="footerPadding">
-      <div class="container">
-        <div id="socialMediaLinks">
-            <!--
-          <div class="socialBox"></div>
-          <div class="socialBox"></div>
-          <div class="socialBox"></div>
--->
-        </div>
-      </div>
-      <div  class="container">
-        <div><a href="https://www.rawpixel.com/aum/showcase/">Illustration by Aum</a></div>
-        <div class="copyright">
-          &copy; copyright 2019 Summer.
-        </div>
-      </div>
+      <p>copyright 2019 Summer.</p>
     </div>
   </footer>
 
-  
-<!-- Modal about me -->
-<div class="modal fade" id="about-me-modal" tabindex="-1" role="dialog" aria-labelledby="about-me-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>About me</h3>
-                    </div>
-                    <div class="opacity-box">
-                        <p>Hi! I'm Summer, a UX designer and researcher located in Toronto. My interests lie in both Product Design and UX Research paths and am confident that my previous work as a designer and Product Support Specialist align perfectly with these goals. I have an unstoppable enthusiasm and a constant drive to improve. I love problem-solving, collaborating and thinking about human behaviours. I am super jazzed about Speculative Design and Sci-Fi.</p>
-                    </div>
-                </div>
-                <div class="about-me-info">
-                    <p class="info-row">
-                        <span class="span-title">Phone</span>
-                        <span class="opacity-box">
-                            <a href="tel:+1-647-454-4666">647.454.4666</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Email</span>
-                        <span class="opacity-box">
-                            <a href="mailto:stelliott33@gmail.com">stelliott33@gmail.com</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Address</span>
-                        <span class="opacity-box">
-                            <a class="map-link" href="open-google-map">Trinity Bellwoods, Toronto, Ontario</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Social</span>
-                        <span>
-                            <a target="_blank" href="https://www.linkedin.com/in/elliottsummer//" class="fa fonts-icons mdi mdi-linkedin-box"></a>
-                            <a target="_blank" href="https://twitter.com/" class="fa fonts-icons mdi mdi-twitter"></a>
-                            <a target="_blank" href="https://www.instagram.com/summerisbossaf/" class="fa fonts-icons mdi mdi-instagram"></a>
-                        </span>
-                    </p>
-                </div>
-                <div class="modal-img">
-                    <img src="media/modal-about-me/ports.jpg" alt="">
-                </div>
-                <div class="resume-box">
-                    <div class="resume-title">
-                        <h4>Experience</h4>
-                    </div>
-                    <div class="resume-desc opacity-box">
-                        <p></p>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Product Support Specialist - HomeStars</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Conducted User Research and worked with dev team to create dashboard to assist Customer Support reach their retention goals.
-Created weekly reports for product team highlighting key pain-points using data collected from tickets. 
-Created and conducted Lunch n’ Learns about the product for CS and Sales teams to create a more engaged and positive experience supporting our users.
-</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>September 2017 — May 2019</p>
-                        </div>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Designer/Principal - elliott designs</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Designed, implemented and built  interior spaces to suit accessibility needs of clients. Created a better user experience and quality of life for clients through interviews, prototyping and testing products. 
-</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>2013 — 2014</p>
-                        </div>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Creative and Technical Consultant - The Youth Project</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Mentored LGBTQ2S youth in creation and production of Gay-Straight Alliance PSA to be used throughout Nova Scotia educational curriculum.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>2006 — 2008</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="resume-box">
-                    <div class="resume-title">
-                        <h4>Education</h4>
-                    </div>
-                    <div class="resume-desc opacity-box">
-                       
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Advanced UX Design - HackerYou </h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Learned cognitive design patterns, visual language principles, systematic design, and user research.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>2019</p>
-                        </div>
-                    </div>
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Human Computer Interaction - UC San Diego/Coursera</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Learned to generate design ideas, create prototypes, map the user experience, conduct user research, and compile relevant data.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>2018</p>
-                        </div>
-                    </div>
-                    
-                    <div class="resume-info">
-                        <div class="resume-info-title">
-                            <h5>Interior Design - Humber</h5>
-                        </div>
-                        <div class="resume-info-desc opacity-box">
-                            <p>Investigate, research and design environments to enable  people to thrive.</p>
-                        </div>
-                        <div class="resume-date opacity-box">
-                            <p>2010 - 2012</p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="modal-buttons">
-                    <a class="site-btn btn-theme-blue" href="#"  data-dismiss="modal" data-toggle="modal" data-target="#contact-me-modal">Contact me</a>
-                    <a class="site-btn btn-theme-blue-tr" href="#" data-dismiss="modal" aria-hidden="true">Back to site</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal about me -->
-
-
-
-<!-- Modal contact me -->
-<div class="modal fade" id="contact-me-modal" tabindex="-1" role="dialog" aria-labelledby="contact-me-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>Contact</h3>
-                    </div>
-                    <br>
-                      <div class="about-me-info">
-                           <div class="opacity-box">
-                        <p>Are you working on something great? I would love to be a part of it! I am especially interested in research and product design.</p>
-                    </div>
-                          <br>
-                          <br>
-                    <p class="info-row">
-                        <span class="span-title">Phone</span>
-                        <span class="opacity-box">
-                            <a href="tel:+1-647-454-4666">647.454.4666</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Email</span>
-                        <span class="opacity-box">
-                            <a href="mailto:stelliott33@gmail.com">stelliott33@gmail.com</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Address</span>
-                        <span class="opacity-box">
-                            <a class="map-link" href="open-google-map">Trinity Bellwoods, Toronto, Ontario</a>
-                        </span>
-                    </p>
-                    <p class="info-row">
-                        <span class="span-title">Social</span>
-                        <span>
-                            <a target="_blank" href="https://www.linkedin.com/in/elliottsummer/" class="fa fonts-icons mdi mdi-linkedin-box"></a>
-                            <a target="_blank" href="https://twitter.com/" class="fa fonts-icons mdi mdi-twitter"></a>
-                            <a target="_blank" href="https://www.instagram.com/summerisbossaf/" class="fa fonts-icons mdi mdi-instagram"></a>
-                        </span>
-                    </p>
-                </div>
-                </div>
-                <div class="form-wrapper">
-                    <form id="modal-form" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name-modal">Name</label>
-                                    <input type="text"
-                                           class="site-input name-input"
-                                           id="name-modal"
-                                           placeholder="Your name"
-                                           required
-                                           data-validation-required-message="Invalid input">
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email-modal">E-mail</label>
-                                    <input type="email"
-                                           class="site-input email-input"
-                                           id="email-modal"
-                                           placeholder="Contact e-mail"
-                                           required
-                                           data-validation-email-message="Invalid input"
-                                           data-validation-required-message="Invalid input">
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="textarea-modal">Message</label>
-                                    <textarea id="textarea-modal"
-                                              class="site-input textarea"
-                                              placeholder="Project description"
-                                              required
-                                              data-validation-required-message="Invalid input"></textarea>
-                                    <p class="help-block"></p>
-                                    <p class="help-block-success">done</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="modal-buttons">
-                                    <input class="site-btn btn-theme-blue" type="submit" value="Send message">
-                                    <a class="site-btn btn-theme-blue-tr" href="#" data-dismiss="modal" aria-hidden="true">Back to site</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal contact me -->
-
-<!-- Modal send message -->
-<div class="modal fade" id="send-message-modal" tabindex="-1" role="dialog" aria-labelledby="send-message-modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="about-me">
-                    <div class="about-title">
-                        <h3>Your message has been sent!</h3>
-                    </div>
-                    <div class="opacity-box">
-                        <p>Thank you for your interest in my work. I'll contact you just in a few days.
-                            Chat soon!</p>
-                    </div>
-                </div>
-                <div class="modal-buttons">
-                    <a class="site-btn btn-theme-blue" href="#" data-dismiss="modal" aria-hidden="true">Back to site</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal send message -->
-
-<script src="js/jquery-2.2.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/jquery.placeholder.min.js"></script>
-
-<!--Isotope-->
-<script src="assets/isotope/imagesloaded.pkgd.min.js"></script>
-<script src="assets/isotope/isotope.pkgd.min.js"></script>
-
-
-<!--Highcharts-->
-<script src="assets/highcharts/highcharts.js"></script>
-<script src="assets/highcharts/data.js"></script>
-<script src="assets/highcharts/exporting.js"></script>
-
-<!--jquery.custom-scroll-->
-<script src="assets/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-
-<!--social likes-->
-<script src="assets/social-likes/social-likes.min.js"></script>
-
-<!--Smooth Scroll-->
-<script src="assets/smoothscroll-for-websites/SmoothScroll.js"></script>
-
-<!--jqBootstrapValidation-->
-<script src="assets/contact/jqBootstrapValidation.js"></script>
-<script src="assets/contact/contact_me.js"></script>
-
-<!--THEME-->
-<script src="js/theme.js"></script>
+  <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
